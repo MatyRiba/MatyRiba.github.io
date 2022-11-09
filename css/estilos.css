@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#logo img {
+  margin-left: 20px;
+}
+
+#menu a {
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+  font-family: "poppins";
+}
+
+.navbar-toggler-icon {
+  color: #a598ba;
+}
+
+.nav-link {
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+.nav-link:hover {
+  -webkit-transform: 1s linear;
+  transform: scale(1.1);
+}
+
+main {
+  background-color: #a598ba;
+}
+
+.carousel-inner {
+  height: 600px;
+}
+
+.carousel-inner img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.container-fluid {
+  margin-left: 10px;
+}
+
+.card-img-top {
+  width: 400px;
+  height: 400px;
+}
+
+.img-fluid {
+  width: 500px;
+  height: 500px;
+}
+
+.card-title {
+  font-size: 22px;
+  color: #a598ba;
+}
+
+#parrafoNos {
+  font-family: "poppins";
+  color: black;
+}
+
+.card-text {
+  font-family: "poppins";
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  background-color: #a598ba;
+  height: 160px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  gap: 5px;
+  font-size: 22px;
+}
+
+footer li a {
+  text-decoration: none;
+}
+
+.redes {
+  width: 28px;
+  margin: 5px;
+  margin-right: 12px;
+}
+
+.florita {
+  font-size: 22px;
+  margin-left: 15px;
+}
+
+#container-fluid {
+  background-color: #a598ba;
+  width: 60%;
+  margin: auto;
+  padding: 18px;
+}
+
+/*
+@media (max-width: 577px){
+    #galeria{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+} */
+@media (max-width: 577px) {
+  #carouselExampleControls {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  #carouselJuli {
+    height: 300px;
+    object-fit: none;
+  }
+}
+
+@media (min-width: 578px) {
+  #nosotros {
+    display: none;
+  }
+}
+
+@media (min-width: 577px) {
+  #carouselJuli {
+    height: 450px;
+  }
+}
+
+@media (max-width: 576px) {
+  #container-fluid {
+    width: 90%;
+  }
+}
+
+/*
+@media (min-width: 577px){
+    #galeria{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 992px){
+    #galeria{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+*/
